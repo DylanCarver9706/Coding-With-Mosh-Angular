@@ -3,12 +3,11 @@
 
 // Then you can run the .js file using node {transpiled .js file}
 
-// function log(message) {
-//     console.log(message)
-// }
+function log(message) {
+    console.log(message)
+}
 
-// let message = "Hello World"
+let message = "Hello World"
 
-// log(message)
+log(message)
 
-// ***************************************************************
