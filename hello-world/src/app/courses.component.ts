@@ -1,4 +1,5 @@
 import { Component } from "@angular/core"; // import declerations
+// import { CoursesService } from "./courses.service";
 
 @Component({ // making custom HTML elements
     selector: 'courses',
@@ -12,7 +13,7 @@ import { Component } from "@angular/core"; // import declerations
 })
 export class CoursesComponent {
     title = "List of courses"
-    courses = ["course1", "course2", "course3"]
+    courses
 
     // Can be called by invoking the fuction in the template
     // getTitle() {
